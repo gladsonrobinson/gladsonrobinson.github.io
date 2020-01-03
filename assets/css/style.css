@@ -616,17 +616,20 @@ p {
         .header-content .header-shape.shape-fore img {
           width: 40px; } }
     .header-content .header-shape.shape-five {
-      right: 30px !important;
+      right: 50% !important;
       bottom: 35% !important;
       left: auto !important;
-      top: auto !important; }
+      top: 4px !important;}
       @media (max-width: 767px) {
         .header-content .header-shape.shape-five {
-          right: 20px !important;
-          bottom: 48% !important; } }
+          right: 50% !important;
+          bottom: 35% !important; } }
       @media (max-width: 767px) {
         .header-content .header-shape.shape-five img {
           width: 40px; } }
+      .header-content .header-shape.shape-five img {
+        width: 184px;
+      }
     .header-content .header-shape.shape-six {
       top: 44% !important;
       left: 13% !important;
